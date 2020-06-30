@@ -622,4 +622,36 @@ a {
 #company .card .item .list li a:hover {
   color: #56597a !important;
 }
+
+#main-footer {
+  background: #f78bb6;
+  padding: 0.7rem 0;
+  color: #fff;
+}
+
+#main-footer .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main-footer .card .item p {
+  font-size: 0.8rem;
+}
+
+#main-footer .card .item p a {
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+#main-footer .card .item p a:hover {
+  color: #5663ab;
+}
 /*# sourceMappingURL=styles.css.map */

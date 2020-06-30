@@ -564,3 +564,31 @@ a {
     }
   }
 }
+
+// Section: Footer
+#main-footer {
+  background: #f78bb6;
+  padding: 0.7rem 0;
+  color: #fff;
+
+  .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .item {
+      p {
+        font-size: 0.8rem;
+
+        a {
+          color: #fff;
+          transition: all 0.3s ease-in;
+
+          &:hover {
+            color: #5663ab;
+          }
+        }
+      }
+    }
+  }
+}
