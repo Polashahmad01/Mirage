@@ -348,3 +348,57 @@ a {
     }
   }
 }
+
+// Section: Testimonial
+#testimonial {
+  margin-top: 6.3rem;
+  margin-bottom: 4.4rem;
+
+  .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+
+    .item {
+      img {
+        width: 70%;
+      }
+
+      h4 {
+        color: #f78bb6;
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+      }
+      h2 {
+        font-size: 3.3rem;
+        line-height: 3.8rem;
+        margin-bottom: 2rem;
+        color: #56597a;
+      }
+
+      p {
+        color: #56597a;
+        margin-bottom: 2rem;
+      }
+
+      .wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h4 {
+          color: #56597a;
+          margin-bottom: 0.5rem;
+        }
+
+        p {
+          color: #56597a;
+        }
+
+        i {
+          color: #56597a;
+        }
+      }
+    }
+  }
+}

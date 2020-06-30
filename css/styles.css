@@ -373,4 +373,64 @@ a {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
+
+#testimonial {
+  margin-top: 6.3rem;
+  margin-bottom: 4.4rem;
+}
+
+#testimonial .card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
+#testimonial .card .item img {
+  width: 70%;
+}
+
+#testimonial .card .item h4 {
+  color: #f78bb6;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+#testimonial .card .item h2 {
+  font-size: 3.3rem;
+  line-height: 3.8rem;
+  margin-bottom: 2rem;
+  color: #56597a;
+}
+
+#testimonial .card .item p {
+  color: #56597a;
+  margin-bottom: 2rem;
+}
+
+#testimonial .card .item .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#testimonial .card .item .wrap h4 {
+  color: #56597a;
+  margin-bottom: 0.5rem;
+}
+
+#testimonial .card .item .wrap p {
+  color: #56597a;
+}
+
+#testimonial .card .item .wrap i {
+  color: #56597a;
+}
 /*# sourceMappingURL=styles.css.map */
