@@ -402,3 +402,20 @@ a {
     }
   }
 }
+
+// Section: Partner
+#partner {
+  margin: 2rem 0;
+
+  .card {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2rem;
+
+    img {
+      width: 80%;
+    }
+  }
+}

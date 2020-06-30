@@ -433,4 +433,26 @@ a {
 #testimonial .card .item .wrap i {
   color: #56597a;
 }
+
+#partner {
+  margin: 2rem 0;
+}
+
+#partner .card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-gap: 2rem;
+}
+
+#partner .card img {
+  width: 80%;
+}
 /*# sourceMappingURL=styles.css.map */
