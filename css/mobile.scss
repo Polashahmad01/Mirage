@@ -1,0 +1,264 @@
+// Section: Navigation
+#main-navbar {
+  display: block;
+
+  #logo {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  ul {
+    justify-content: center;
+
+    li {
+      a {
+        padding: 0 0.8rem;
+      }
+    }
+  }
+}
+
+// Section: Header
+#main-header {
+  background: none;
+
+  .card {
+    grid-template-columns: 1fr;
+    margin-top: -5rem;
+
+    .item {
+      h3 {
+        display: flex;
+        justify-content: center;
+        grid-gap: 0;
+
+        &::before {
+          left: 40px;
+        }
+      }
+
+      h1 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      .btn {
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    .empty {
+      display: none !important;
+    }
+  }
+}
+
+// Section: Serveices
+#service {
+  padding: 0;
+  margin-top: -8rem;
+
+  h2 {
+    font-size: 2rem;
+    line-height: 2.7rem;
+    margin: 1rem 0;
+  }
+
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 1rem;
+
+    .item {
+      margin-top: 1.5rem;
+    }
+  }
+}
+
+// Section: Design
+#design {
+  padding: 4rem;
+  margin-bottom: 1rem;
+
+  .card {
+    grid-template-columns: 1fr;
+
+    .item {
+      img {
+        width: 100%;
+      }
+
+      h4 {
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+      }
+    }
+  }
+}
+
+// Section: Teamwork
+#teamwork {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  .card {
+    grid-template-columns: 1fr;
+
+    .item {
+      h4 {
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+// Section: Testimonial
+#testimonial {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+
+  .card {
+    grid-template-columns: 1fr;
+
+    .item {
+      img {
+        display: block;
+        margin: auto;
+      }
+
+      h4 {
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+      }
+    }
+  }
+}
+
+// Section: Partner
+#partner {
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+
+    img {
+      display: block;
+      margin: auto;
+      width: 60%;
+    }
+  }
+}
+
+// Section: Blog
+#blog {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+
+    .content {
+      padding: 0;
+
+      h2 {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+
+      .form-group {
+        input {
+          width: 46%;
+        }
+      }
+
+      button {
+        padding: 0.5rem 1rem;
+      }
+    }
+  }
+}
+
+// Section: Company
+#company {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  .card {
+    grid-template-columns: 1fr;
+
+    .item {
+      h3 {
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      ul {
+        justify-content: center;
+      }
+
+      .list {
+        align-items: center;
+      }
+    }
+  }
+}
+
+// Section: Footer
+#main-footer {
+  .card {
+    flex-direction: column;
+
+    .item {
+      p {
+        font-size: 0.6rem;
+      }
+    }
+  }
+}

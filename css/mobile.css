@@ -1,0 +1,266 @@
+#main-navbar {
+  display: block;
+}
+
+#main-navbar #logo {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+#main-navbar ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main-navbar ul li a {
+  padding: 0 0.8rem;
+}
+
+#main-header {
+  background: none;
+}
+
+#main-header .card {
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  margin-top: -5rem;
+}
+
+#main-header .card .item h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 0;
+}
+
+#main-header .card .item h3::before {
+  left: 40px;
+}
+
+#main-header .card .item h1 {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  text-align: center;
+}
+
+#main-header .card .item p {
+  text-align: center;
+}
+
+#main-header .card .item .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main-header .card .empty {
+  display: none !important;
+}
+
+#service {
+  padding: 0;
+  margin-top: -8rem;
+}
+
+#service h2 {
+  font-size: 2rem;
+  line-height: 2.7rem;
+  margin: 1rem 0;
+}
+
+#service .card {
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  margin-top: 1rem;
+}
+
+#service .card .item {
+  margin-top: 1.5rem;
+}
+
+#design {
+  padding: 4rem;
+  margin-bottom: 1rem;
+}
+
+#design .card {
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+#design .card .item img {
+  width: 100%;
+}
+
+#design .card .item h4 {
+  text-align: center;
+}
+
+#design .card .item h2 {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  text-align: center;
+}
+
+#design .card .item p {
+  text-align: center;
+}
+
+#teamwork {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#teamwork .card {
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+#teamwork .card .item h4 {
+  text-align: center;
+}
+
+#teamwork .card .item h2 {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  text-align: center;
+}
+
+#teamwork .card .item p {
+  text-align: center;
+}
+
+#teamwork .card .item .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#testimonial {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+#testimonial .card {
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+#testimonial .card .item img {
+  display: block;
+  margin: auto;
+}
+
+#testimonial .card .item h4 {
+  text-align: center;
+}
+
+#testimonial .card .item h2 {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  text-align: center;
+}
+
+#testimonial .card .item p {
+  text-align: center;
+}
+
+#partner .card {
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+}
+
+#partner .card img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+#blog {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+#blog .card {
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+}
+
+#blog .card .content {
+  padding: 0;
+}
+
+#blog .card .content h2 {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#blog .card .content p {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#blog .card .content .form-group input {
+  width: 46%;
+}
+
+#blog .card .content button {
+  padding: 0.5rem 1rem;
+}
+
+#company {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#company .card {
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+#company .card .item h3 {
+  text-align: center;
+}
+
+#company .card .item p {
+  text-align: center;
+}
+
+#company .card .item ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#company .card .item .list {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main-footer .card {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#main-footer .card .item p {
+  font-size: 0.6rem;
+}
+/*# sourceMappingURL=mobile.css.map */
